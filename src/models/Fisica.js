@@ -1,6 +1,6 @@
 import Pessoa from "./Pessoa";
 
-export default class Fisica extends Pessoa {
+class Fisica extends Pessoa {
     constructor(nome, telefone, email, endereco, genero, estadoCivil, dataNascimento) {
         super(nome, telefone, email, endereco);
 
@@ -41,3 +41,5 @@ export default class Fisica extends Pessoa {
     return `${super.toString()}, genero=${this.genero}, estadoCivil=${this.estadoCivil}, idade=${this.getIdade()}`;
   }
 }
+
+export default Fisica;
