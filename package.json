@@ -1,0 +1,14 @@
+{
+  "name": "oop-activity",
+  "version": "1.0.0",
+  "description": "Modelo OO (Pessoa/Funcionario/Fornecedor + operacoes matematicas) traduzido para JavaScript/Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": ["oop", "poo", "heranca", "polimorfismo"],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
