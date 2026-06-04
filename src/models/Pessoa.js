@@ -1,4 +1,4 @@
-export default class Pessoa {
+class Pessoa {
     constructor(nome, telefone, email, endereco) {
         if (new.target === Pessoa) {
             throw new Error('Não é possível instanciar uma pessoa inespecífica')
@@ -27,3 +27,5 @@ export default class Pessoa {
     }
     
 }
+
+export default Pessoa;
