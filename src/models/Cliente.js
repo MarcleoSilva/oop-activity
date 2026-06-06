@@ -1,4 +1,4 @@
-import Fisica from "./Fisica";
+import Fisica from "./Fisica.js";
 
 class Cliente extends Fisica {
     constructor(nome, telefone, email, endereco, genero, estadoCivil, dataNascimento, protocoloAtendimento) {

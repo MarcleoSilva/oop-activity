@@ -1,4 +1,4 @@
-import Pessoa from "./Pessoa";
+import Pessoa from "./Pessoa.js";
 
 class Juridica extends Pessoa {
     constructor(nome, telefone, email, endereco, cnpj, inscricaoEstadual) {

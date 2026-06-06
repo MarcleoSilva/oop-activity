@@ -1,4 +1,4 @@
-import Juridica from "./Juridica";
+import Juridica from "./Juridica.js";
 
 class Fornecedor extends Juridica {
     constructor(nome, telefone, email, endereco, cnpj, inscricaoEstadual, setor, produto) {

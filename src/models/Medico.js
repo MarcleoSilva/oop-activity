@@ -1,4 +1,4 @@
-import Funcionario from "./Funcionario";
+import Funcionario from "./Funcionario.js";
 
 class Medico extends Funcionario {
     constructor(nome, telefone, email, endereco, genero, estadoCivil, dataNascimento, cpf, rg, matricula, setor, salario, crm) {
