@@ -28,7 +28,7 @@ class Endereco {
 
     toString() {
         const comp = this.complemento ? `, ${this.complemento}` : '';
-        return `${this.logradouro}, n. ${this.numero}${comp} - ${this.cidade}/${this.uf.getSigla()} - CEP ${this.cep}`
+        return `${this.logradouro}, n. ${this.numero}${comp} - ${this.cidade}/${this.uf} - CEP ${this.cep}`
     }
 }
 
